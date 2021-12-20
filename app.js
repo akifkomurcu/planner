@@ -1,17 +1,17 @@
 const express = require('express')
-
+const port = 3000
 const app = express();
 
-
+app.use(express.static(__dirname + '/public'));
 app.get('/', (req, res) => {
 
-    res.send('uWu')
+    res.sendFile(__dirname + '/index.html')
 
 })
 
 
 
-app.listen(3000, () => {
+app.listen(port, () => {
 
-    console.log("server started on 3000")
+    console.log("server started on: ", port)
 })
