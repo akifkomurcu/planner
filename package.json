@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/akifzsche/planner#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "localStorage": "^1.0.4",
+    "node-localstorage": "^2.2.1"
   }
 }

@@ -44,7 +44,7 @@ body {
     text-align: center;
   }
   
-  /* .contentloading:after{
+  .contentloading:after{
     text-align: center;
     visibility:visible;
     /* content: "Loading..."; */
@@ -52,8 +52,15 @@ body {
   
     /* top: 0;
     left: 20px; */
-  } */
-.content .dailycontent{
+  } 
+  
+.deletedata{
+  text-decoration: none;
   color: white;
 }
+.deletedata:hover{
+  color: #ffffff;
+  background-color: rgba(46, 46, 45, 0.555);
+  text-decoration: line-through;  
 
+}
