@@ -11,6 +11,9 @@ body {
   }
   
   .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #000000d0;
     color: white;
     padding: 2em;
@@ -47,11 +50,6 @@ body {
   .contentloading:after{
     text-align: center;
     visibility:visible;
-    /* content: "Loading..."; */
-    
-  
-    /* top: 0;
-    left: 20px; */
   } 
   
 .deletedata{
@@ -66,32 +64,3 @@ body {
   cursor: pointer;
 
 }
-/* @media (min-width: 100px)  {
-
-    
-  .card {
-    background: #000000d0;
-    color: white;
-    padding: 2em;
-    border-radius: 30px;
-    width: 100%;
-    max-width: 320px;
-    margin: 1em;
-    text-align: center;
-  }
-
-}
-@media (min-width: 463px)  {
-
-  .card {
-    background: #000000d0;
-    color: white;
-    padding: 2em;
-    border-radius: 30px;
-    width: 100%;
-    max-width: 420px;
-    margin: 1em;
-    text-align: center;
-  }
-
-} */
